@@ -2,8 +2,7 @@ import turtle
 import random
 
 die = [1, 2, 3, 4, 5, 6]
-#screen = turtle.getscreen()
-turtle.bgpic()
+turtle.bgcolor('Black')
 t = turtle.Turtle()
 t.penup()
 t.goto(500, 100)
